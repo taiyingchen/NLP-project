@@ -10,6 +10,8 @@ Given the title of a fake news article A and the title of a coming news article 
 * disagreed: B refutes the fake news in A
 * unrelated: B is unrelated to A
 
+Kaggle link: <https://www.kaggle.com/c/fake-news-pair-classification-challenge>
+
 ## Data
 
 Example:
@@ -46,10 +48,19 @@ Histogram
 
 #### BERT
 
-<https://github.com/google-research/bert>
+Github link: <https://github.com/google-research/bert>
 
 ![BERT sentence pair](img/bert_sentence_pair.png)
 
 ## Evaluation
 
 **Weighted accuracy**: The weights of the three categories, agreed, disagreed and unrelated are **1/15**, **1/5**, **1/16**, respectively.
+
+## Results
+
+Method | Private score | Public score
+--- | ---| ---
+all unrelated | 0.57842 | 0.66675
+M.E.D. > 20.7782: unrelated; else agreed | 0.70500 | 0.70956
+BERT kernel sample submission | 0.85026 |0.85440
+BERT trained on Colab | 0.85879 | 0.86242
