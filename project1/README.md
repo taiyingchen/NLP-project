@@ -37,13 +37,18 @@ Class | nobs | percentage (%) | minmax | mean | median | variance | skewness | k
 agreed | 92973 | 29.0 | (0, 95) | 18.26826 | 20 | 59.14989 | -0.41811 | -0.06337
 disagreed | 8266 | 2.6 | (0, 146) | 20.77824 | 21 | 42.81264 | 1.09152 | 19.70800
 unrelated | 219313 | 68.4 | (0, 150) | 25.34657 | 26 | 32.43219 | 1.59705 | 27.60223
-320552
 
 Histogram
 
 ![histogram](img/min_edit_distance_histogram.png)
 
 ### Classification
+
+#### BERT
+
+<https://github.com/google-research/bert>
+
+![BERT sentence pair](img/bert_sentence_pair.png)
 
 ## Evaluation
 
