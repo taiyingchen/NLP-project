@@ -1,0 +1,6 @@
+bert-tensorflow
+tensorflow
+tensorflow-hub
+nltk
+sklearn
+pandas
