@@ -39,7 +39,7 @@ Sub-task C: Offense target identification
 python3 main.py TRAIN_FILE TEST_FILE GOLD_FILE GLOVE_DIR MODEL
 ```
 
-* `TRAIN_FILE`: path to training data * (`olid-training-v1.0.tsv`)
+* `TRAIN_FILE`: path to training data (`olid-training-v1.0.tsv`)
 * `TEST_FILE`: path to testing data (`testset-levela.tsv`)
 * `GOLD_FILE`: path to gold standard labels (`labels-levela.csv`)
 * `GLOVE_DIR`: directory to GloVe pre-trained embedding (`glove.twitter.27B`)
